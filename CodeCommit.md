@@ -31,7 +31,6 @@
         * Tiếp tục bấm **Next** cho tới bước cuối cùng > Bấm **Create user**  
         Sau khi tạo user, bạn sẽ được cung cấp 1 user credential. Download file csv
          ![user-credential](./images/CodeCommit/user-credential.PNG)
-        
         * Chọn user mới tạo > chọn tab **Security credentials** > ở mục **HTTPS Git credential for AWS CodeCommit**, bấm **Generate credentials** > lưu username và password mới tạo. Như vậy mình đã có thể kết nối Codecommit từ local machine.
 
         * Để sao chep repo về local machine, vào lại dịch vụ CodeCommit, chọn repo cần sao chép, Chọn **Clone URL** > **Clone HTTPS**, bạn sẽ được cung cấp 1 đường link để sao chép repo về local
